@@ -1,6 +1,6 @@
 # gan-projects
 
-Small projects where I have utilized my gan-toolkit
+Small projects where I have utilized my gan-toolkit.
 
 ## 3D Minecraft Steve
 
