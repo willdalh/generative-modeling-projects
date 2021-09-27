@@ -30,6 +30,6 @@ A | B | C
 
 An interesting effect occured where a certain point between two vectors would switch the direction the model faces. This can be seen in the two GIFs below.
 
-A | B
-- | -
-<img src="./minecraft-steve/res/anim_switch.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_switch2.gif" style="width: 750px"> 
+| A | B |
+:-----:|:-----:  
+<img src="./minecraft-steve/res/anim_switch.gif"> | <img src="./minecraft-steve/res/anim_switch2.gif"> 
