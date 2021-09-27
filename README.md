@@ -24,7 +24,7 @@ The generator quickly learnt that it is not necessary to create images showing S
 ### Generating animations
 
 The three GIFs below shows how interpolating between latent vectors animates rotation.
-|  |  |  |
+|<!-- --> |<!-- --> |<!-- --> |
 :---:|:---:|:---:
 <img src="./minecraft-steve/res/anim_front_rot_2.gif" width="200"> | <img src="./minecraft-steve/res/anim_rot_fast.gif" width="200"> | <img src="./minecraft-steve/res/anim_rot2.gif" width="200">
 
