@@ -4,7 +4,7 @@ Small projects where I have utilized my gan-toolkit
 
 ## 3D Minecraft Steve
 
-I experimented with this dataset because I was curious to see how interpolations between two arbitrary latent vectors would create an animation. When the model is trained on faces, it will generate a smooth transition seen [here](https://miro.medium.com/max/960/0*dwtvGrRWRAUJuZm4.gif).
+I experimented with this dataset because I was curious to see how interpolations between two arbitrary latent vectors would create an animation. When the model is trained on faces, interpolating between two latent vectors will generate a smooth transition as seen [here](https://miro.medium.com/max/960/0*dwtvGrRWRAUJuZm4.gif).
 
 ### Dataset
 
