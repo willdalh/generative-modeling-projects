@@ -10,14 +10,14 @@ I experimented with this dataset because I was curious to see how interpolations
 
 I created the dataset by importing a [3D-model of Steve](https://sketchfab.com/3d-models/minecraft-steve-cb228dcc137042cc9a3dc588758cc6e9) into Unity and creating a script that would revolve around the model and capturing images from different angles. A subset of the dataset is visualized below, with the rescaling applied and colors removed.
 
-<img src="./minecraft-steve/res/dataset_sample.png" style="object-position: 0px 611px; margin-top: -610px">
+<img src="./minecraft-steve/res/dataset_sample.png" style="object-position: 0px 694px; margin-top: -694px">
 
 
 ### Generating perspectives of Steve
 
 Starting of, I try to generate different perspectives using arbitrary latent vectors.
 
-<img src="./minecraft-steve/res/sample.png" style="object-position: 0px 611px; margin-top: -610px">
+<img src="./minecraft-steve/res/sample.png" style="object-position: 0px 694px; margin-top: -694px">
 
 The generator quickly learnt that it is not necessary to create images showing Steve's face, as it is more detailed than the back of his head, and that the discriminator would still accept these. Therefore, most inputs will result in images showing the back of Steve.
 
