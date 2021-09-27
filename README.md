@@ -26,7 +26,7 @@ The generator quickly learnt that it is not necessary to create images showing S
 The three GIFs below shows how interpolating between latent vectors animates rotation.
 A | B | C
 - | - | -
-<img src="./minecraft-steve/res/anim_front_rot_2.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_rot_fast.gif" style="width: 750px">| ![Alt Text](./minecraft-steve/res/res/anim_rot2.gif)
+<img src="./minecraft-steve/res/anim_front_rot_2.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_rot_fast.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_rot2.gif" style="width: 750px">
 
 An interesting effect occured where a certain point between two vectors would switch the direction the model faces. This can be seen in the two GIFs below.
 
