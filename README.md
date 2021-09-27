@@ -8,10 +8,9 @@ I experimented with this dataset because I was curious to see how interpolations
 
 ### Dataset
 
-![Image](./minecraft-steve/res/dataset_sample.png)
 I created the dataset by importing a [3D-model of Steve](https://sketchfab.com/3d-models/minecraft-steve-cb228dcc137042cc9a3dc588758cc6e9) into Unity and creating a script that would revolve around the model and capturing images from different angles. A subset of the dataset is visualized below, with the rescaling applied and colors removed.
 
-<img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/dataset_sample.png" style="object-position: 0px 611px; margin-top: -610px">
+<img src="./minecraft-steve/res/dataset_sample.png" style="object-position: 0px 611px; margin-top: -610px">
 
 
 ### Generating perspectives of Steve
