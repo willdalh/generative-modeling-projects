@@ -32,4 +32,4 @@ An interesting effect occured where a certain point between two vectors would sw
 
 | A | B |
 :------------------------:|:------------------------:  
-<img src="./minecraft-steve/res/anim_switch.gif"> | <img src="./minecraft-steve/res/anim_switch2.gif"> 
+<img src="./minecraft-steve/res/anim_switch.gif" width="300"> | <img src="./minecraft-steve/res/anim_switch2.gif" width="300"> 
