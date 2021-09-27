@@ -17,7 +17,7 @@ I created the dataset by importing a [3D-model of Steve](https://sketchfab.com/3
 
 Starting of, I try to generate different perspectives using arbitrary latent vectors.
 
-<img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/sample.png" style="object-position: 0px 611px; margin-top: -610px">
+<img src="./minecraft-steve/res/sample.png" style="object-position: 0px 611px; margin-top: -610px">
 
 The generator quickly learnt that it is not necessary to create images showing Steve's face, as it is more detailed than the back of his head, and that the discriminator would still accept these. Therefore, most inputs will result in images showing the back of Steve.
 
@@ -26,10 +26,10 @@ The generator quickly learnt that it is not necessary to create images showing S
 The three GIFs below shows how interpolating between latent vectors animates rotation.
 A | B | C
 - | - | -
-<img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/anim_front_rot_2.gif" style="width: 750px"> | <img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/anim_rot_fast.gif" style="width: 750px">| ![Alt Text](https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/anim_rot2.gif)
+<img src="./minecraft-steve/res/anim_front_rot_2.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_rot_fast.gif" style="width: 750px">| ![Alt Text](./minecraft-steve/res/res/anim_rot2.gif)
 
 An interesting effect occured where a certain point between two vectors would switch the direction the model faces. This can be seen in the two GIFs below.
 
 A | B
 - | -
-<img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/anim_switch.gif" style="width: 750px"> | <img src="https://raw.githubusercontent.com/willdalh/gan-projects/main/minecraft-steve/res/anim_switch2.gif" style="width: 750px"> 
+<img src="./minecraft-steve/res/res/anim_switch.gif" style="width: 750px"> | <img src="./minecraft-steve/res/anim_switch2.gif" style="width: 750px"> 
