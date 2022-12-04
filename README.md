@@ -3,6 +3,7 @@
 Repository for presenting results from projects in generative modeling.
 
 ## 3D Minecraft Steve
+
 For this project, I utilized my [gan-kit](https://github.com/willdalh/gan-kit).
 I experimented with a self-made dataset consisting of different perspectives of Steve because I was curious to see how interpolations between two arbitrary latent vectors would create an animation. For models trained on faces, interpolations between two latent vectors will generate a smooth transition as seen [here](https://miro.medium.com/max/960/0*dwtvGrRWRAUJuZm4.gif).
 
@@ -11,7 +12,6 @@ I experimented with a self-made dataset consisting of different perspectives of 
 I created the dataset by importing a [3D-model of Steve](https://sketchfab.com/3d-models/minecraft-steve-cb228dcc137042cc9a3dc588758cc6e9) into Unity and creating a script that would revolve around the model and capture images from different angles. A subset of the dataset is visualized below, with rescaling applied and colors removed.
 
 <img src="./minecraft-steve/res/dataset_sample_cropped.png">
-
 
 ### Generating perspectives of Steve
 
@@ -30,6 +30,14 @@ The three GIFs below shows how interpolating between latent vectors simulates a 
 
 An interesting effect occured where a certain point between two vectors would switch the direction the model faces. This can be seen in the two GIFs below.
 
-| Switch front to back | Switch back to front |
-:---:|:---:  
-<img src="./minecraft-steve/res/anim_switch.gif" width="200"> | <img src="./minecraft-steve/res/anim_switch2.gif" width="200"> 
+|                     Switch front to back                      |                      Switch back to front                      |
+| :-----------------------------------------------------------: | :------------------------------------------------------------: |
+| <img src="./minecraft-steve/res/anim_switch.gif" width="200"> | <img src="./minecraft-steve/res/anim_switch2.gif" width="200"> |
+
+## Pokémon Sprites
+
+This was my first attempt at Generative Adversarial Networks. All models would fail after some training due to mode collapse.
+
+<img src="./pokemon-sprites/1.png">
+<img src="./pokemon-sprites/2.png">
+<img src="./pokemon-sprites/3.png">
