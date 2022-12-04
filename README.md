@@ -1,9 +1,9 @@
-# gan-projects
+# Generative modeling projects
 
-Small projects where I have utilized my gan-toolkit.
+Small projects where I present my results when training generative models.
 
 ## 3D Minecraft Steve
-
+For this project, I utilized my [gan-kit](https://github.com/willdalh/gan-kit).
 I experimented with this dataset because I was curious to see how interpolations between two arbitrary latent vectors would create an animation. For models trained on faces, interpolations between two latent vectors will generate a smooth transition as seen [here](https://miro.medium.com/max/960/0*dwtvGrRWRAUJuZm4.gif).
 
 ### Dataset
