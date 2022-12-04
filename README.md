@@ -1,6 +1,6 @@
 # Generative modeling projects
 
-Small projects where I present my results when training generative models.
+Repository for presenting results from projects in generative modeling.
 
 ## 3D Minecraft Steve
 For this project, I utilized my [gan-kit](https://github.com/willdalh/gan-kit).
